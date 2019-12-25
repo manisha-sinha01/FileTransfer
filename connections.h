@@ -1,0 +1,2 @@
+#define SOCKET_ERROR -1
+#define PORTNO 8080

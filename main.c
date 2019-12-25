@@ -41,11 +41,11 @@ int main(int argc, char* argv[]){
         }
     }
 
-    if(sendFlag){
+    /*if(sendFlag){
         socket = sendConnection();
         sendFile(socket, filepath, key);
         closeConnection(socket);
-    }       
+    } */      
 
     if(getFlag){
         socket = getConnection(ipaddr);
